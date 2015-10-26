@@ -1,5 +1,5 @@
 var loaderUtils = require('loader-utils')
-var svgTemplater = require('svgtemplater')
+var svgTemplater = require('./svgtemplater.js')
 
 module.exports = function (source) {
   this.cacheable && this.cacheable();
